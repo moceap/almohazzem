@@ -116,6 +116,10 @@ do
 		then rpmlnk="`echo $link | sed "s:$lnk::g"`"
 		echo '"'$rpmlnk'"'
 	fi
+	if [ -h "$link" ]
+		then rpmlnk="`echo $link | sed "s:$lnk::g"`"
+		echo '"'$rpmlnk'"'
+	fi		
 done
 }
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
