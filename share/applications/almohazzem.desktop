@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Utility;System;Development;
+Comment[en_US]=Powerful Linux Packaging SDK
+Comment=Powerful Linux Packaging SDK
+Comment[ar]=بيئة تطويرية متكاملة للتحزيم اللينكساوي
+Exec=env UBUNTU_MENUPROXY=0 almohazzem --gui %U  
+Icon=almohazzem
+GenericName[en_US]=Almohazzem
+GenericName=المحزم
+GenericName[ar]=المحزم
+MimeType=application/almohazzem;
+Name[en_US]=Almohazzem
+Name=المحزم
+Name[ar]=المحزم
+Terminal=false
+Type=Application
+X-AppInstall-Package=almohazzem

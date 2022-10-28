@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+    <mime-type type="application/almohazzem">
+        <comment>Almohazzem packaging SDK document</comment>
+        <comment xml:lang="ara">مستند البيئة التطويرية المحزم</comment>
+        <icon name="almohazzem"/>        
+        <glob pattern="*.almohazzem"/>
+    </mime-type>
+</mime-info>
